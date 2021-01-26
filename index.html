@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Garage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p>My Car Garage</p>
+    </header>
+    <main>
+        <div class="form-container">
+            <form id="cars-form" action="">
+                <label for="car-name">Car Name</label><br><br>
+                <input name="carName" type="text"><br><br>
+                <label for="categoryModel"></label><br><br>
+                <select name="categoryModel" id="">
+                    <option value="BMW">BMW</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="KIA">KIA</option>
+
+                </select><br><br>
+                <label for="modelYear">Model Year</label><br><br>
+                <select name="modelYear" id="">
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select><br><br>
+                <button type="submit">submit</button><br><br>
+
+
+
+            </form>
+
+        </div>
+
+        <div class="rendered-dom">
+            <table id="result-table">
+
+            </table><br><br>
+            <button id="clear-data" type="button">Clear Data</button><br><br>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
